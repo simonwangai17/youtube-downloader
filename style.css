@@ -1,18 +1,42 @@
 .container {
     max-width: 600px;
-    margin: 50px auto;
+    margin: 0 auto;
     text-align: center;
 }
 
-input[type="text"],
-button {
-    margin: 10px;
-    padding: 8px 12px;
-    font-size: 16px;
+h1 {
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 #videoInfo {
@@ -20,5 +44,9 @@ button {
 }
 
 #downloadOptions {
+    margin-top: 20px;
+}
+
+#downloadButton {
     margin-top: 20px;
 }
