@@ -9,6 +9,20 @@
 <body>
     <div class="container">
         <h1>YouTube Downloader</h1>
+        
+        <div class="content">
+            <p>Welcome to YouTube Downloader! Download your favorite YouTube videos easily.</p>
+            <p>Explore popular categories or find trending videos:</p>
+            <div class="button-group">
+                <button onclick="fetchCategory('music')">Music</button>
+                <button onclick="fetchCategory('sports')">Sports</button>
+                <button onclick="fetchCategory('entertainment')">Entertainment</button>
+            </div>
+            <div class="button-group">
+                <button onclick="fetchTrendingVideos()">Trending Videos</button>
+            </div>
+        </div>
+        
         <input type="text" id="videoUrl" placeholder="Enter YouTube Video URL">
         <button onclick="fetchVideoInfo()">Get Video Info</button>
         <div id="videoInfo"></div>
