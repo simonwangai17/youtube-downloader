@@ -1,0 +1,24 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input[type="text"],
+button {
+    margin: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#videoInfo {
+    margin-top: 20px;
+}
+
+#downloadOptions {
+    margin-top: 20px;
+}
